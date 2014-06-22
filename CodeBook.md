@@ -39,18 +39,25 @@ meanFreq(): Weighted average of the frequency components to obtain a mean freque
 The dataset contains the average value for the mean, std dev and meanFreq for all
 the feature vectors. There are 79 such values
 
-Variable Name/Format           Variable Description            Values              Position
-1. Subject                 Identifier of the subject        1 to 30                      1
-                        who carried out the activity 
-                        
-2. Activity                 Activity carried out by         WALKING: 1                  2
-                            the subject wearing the         WALKING_UPSTAIRS: 2 
-                            smartphone                      WALKING_DOWNSTAIRS: 3 
-                                                            SITTING: 4
-                                                            STANDING: 5
-                                                            LAYING: 6
-                                                            
-3. X.tBodyAcc.mean.X        Average value of mean and       Values between -1 an        3- 79
-                            std dev for various features    d 1
+- *Variable Name/Format*: Subject     
+*Variable Description*: Identifier of the subject who carried out the activity            
+*Values*: 1 to 30         
+*Position*: 1
+
+- *Variable Name/Format*: Activity
+*Variable Description*: Activity caried out by the subject wearing the smartphone
+*Values*:
+WALKING:1
+WALKING_UPSTAIRS:2
+WALKING_DOWNSTAIRS:3
+SITTING:4
+STANDING:5
+LAYING:6
+*Position*:2
+
+- *Variable Name/Format*: X.tBodyAcc.mean.X
+*Variable Description*: Average value of mean and std dev for various features
+*Values*: between -1 and 1
+Position: 3- 79
                             
                             
